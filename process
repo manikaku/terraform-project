@@ -1,3 +1,6 @@
+__> Create server with t2.medium and setup jenkins and terraform.
+--> Create pipeline job, and use the pipeline-code to automate.
+--> To keep aws access key and secret key , used credentials.
 #path: Dashboard
 Manage Jenkins
 Credentials
@@ -6,5 +9,9 @@ Global credentials (unrestricted)
 kind: secret key
 secret: give access key
 id: acess key
-
 give access key and secret key like this
+
+--> Instead of changing the code for to do apply and to do destroy.
+---> Kept it those two as parameters- Used choice parameter and define (apply and destroy).
+---> After executing the code when build got success, use the load balancer to check the output. 
+---> Check whether the load is distributing between two servers or not.

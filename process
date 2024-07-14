@@ -1,4 +1,4 @@
-__> Create server with t2.medium and setup jenkins and terraform.
+--> Create server with t2.medium and setup jenkins and terraform.
 --> Create pipeline job, and use the pipeline-code to automate.
 --> To keep aws access key and secret key , used credentials.
 #path: Dashboard
